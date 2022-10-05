@@ -2,7 +2,7 @@ name: Call a reusable workflow
 on:
   pull_request:
 jobs:
-  call-workflow:
+  call-workflow-pull:
     uses: GitRunnerOrg/workflow-called/.github/workflows/called.yaml@main
     with:
       some-value: Hi this is on pull
