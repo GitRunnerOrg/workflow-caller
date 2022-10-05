@@ -1,9 +1,8 @@
 name: Call a reusable workflow
 on:
   push:
-
 jobs:
   call-workflow:
     uses: GitRunnerOrg/workflow-called/.github/workflows/called.yaml@main
     with:
-      some-value: prod
+      some-value: Hi this is on push
