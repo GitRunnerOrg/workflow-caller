@@ -8,4 +8,4 @@ jobs:
   call-workflow:
     uses: GitRunnerOrg/workflow-called/.github/workflows/called.yaml@main
     with:
-      some-value: main
+      some-value: prod
